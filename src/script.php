@@ -11,7 +11,7 @@ require "../vendor/autoload.php";
 use TestPHP\Invoice;
 use TestPHP\InvoiceLine;
 
-$l1 = new InvoiceLine(20,'Art1',20);
+$l1 = new InvoiceLine(25,'Art1',20);
 $l2 = new InvoiceLine(35,'Art2',20);
 $l3 = new InvoiceLine(20,'Art3',20);
 
