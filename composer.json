@@ -1,0 +1,19 @@
+{
+    "name": "minos/test-php",
+    "description": "Test PHP",
+    "authors": [
+        {
+            "name": "Alexandre",
+            "email": "prezio.alexandre@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4":{
+        "TestPHP\\":"src/"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
